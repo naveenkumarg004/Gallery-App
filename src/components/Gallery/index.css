@@ -1,0 +1,44 @@
+.bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  padding: 10px;
+}
+@media screen and(min-width: 768px) {
+  .bg {
+    padding: 20px;
+  }
+}
+
+.content-div {
+  width: 90%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: gray;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  font-weight: 500;
+  color: #1e293b;
+}
+.para {
+  color: #1e293b;
+}
+.thumds-cont {
+  display: flex;
+  flex-wrap: wrap;
+}

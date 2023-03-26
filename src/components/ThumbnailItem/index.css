@@ -1,0 +1,15 @@
+.btn {
+  width: 100%;
+}
+.list-item {
+  list-style-type: none;
+
+  margin: 5px;
+}
+
+.opacity {
+  opacity: 0.5;
+}
+.noOpacity {
+  opacity: unset;
+}
